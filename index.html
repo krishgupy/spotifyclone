@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="icon" href="icons8-spotify-48.png" type="image/png">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img class="invert" src="close.svg" alt="">
+            </div>
+            <div class="home bg-grey m-1 rounded p-1">
+                <img class="invert" width="133px" src="logo.svg" alt="logo">
+                <ul>
+                    <li><img class="invert" src="home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey m-1 rounded p-1">
+                <div class="heading">
+                    <img class="invert" src="playback.svg" alt="playback">
+                    <h2>
+                        Your Library
+
+                    </h2>
+
+                </div>
+                <div class="songlist">
+                    <ul>
+
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="right bg-grey  rounded ">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamburgercontainer">
+                        <img width="40" class="invert hamburger" src="hamburger.svg" alt="">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </div>
+
+
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+
+            </div>
+            <div class="spotify-playlist">
+                <h1>
+                    Spotify Playlists
+                </h1>
+                <div class="cardcontainer">
+                    <div data-folder="cs" class="card">
+                        <div class="play">
+                            <svg width="28px" height="28px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Green Circle -->
+                                <circle cx="50" cy="50" r="50" fill="green" />
+
+                                <!-- Play Button (Triangle) -->
+                                <polygon points="35,25 35,75 75,50" fill="black" />
+                            </svg>
+
+
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfB87JFp5O-DGnGUDMe5abgazMiFjGh1k1UQiW8v822YkZfy8d"
+                            alt="">
+                        <h2>Happy Hits!
+
+                        </h2>
+                        <p>
+                            Uplifting anthems to power you through 'til the weekend.
+                        </p>
+                    </div>
+                    <div  data-folder="ncs" class="card">
+                        <div class="play">
+                            <svg width="28px" height="28px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Green Circle -->
+                                <circle cx="50" cy="50" r="50" fill="green" />
+
+                                <!-- Play Button (Triangle) -->
+                                <polygon points="35,25 35,75 75,50" fill="black" />
+                            </svg>
+
+
+                        </div>
+                        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR4FekIzPM6Z1MEBMlK_5ZfmhidBHIGrqKshxcah_0v9GyG7lwq"
+                            alt="">
+                        <h2>Feel Good Friday!
+
+                        </h2>
+                        <p>
+                            Hits to boost your mood and fill you with happiness!
+                        </p>
+                    </div>
+                    <div data-folder="nncs" class="card">
+                        <div class="play">
+                            <svg width="28px" height="28px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Green Circle -->
+                                <circle cx="50" cy="50" r="50" fill="green" />
+
+                                <!-- Play Button (Triangle) -->
+                                <polygon points="35,25 35,75 75,50" fill="black" />
+                            </svg>
+
+
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVrSlmpgyWkI4MS8XwgqqkZgCghCxHbNXhoMyX4veGiOWjJhOV"
+                            alt="">
+                        <h2>Atif Aslam
+
+                        </h2>
+                        <p>
+                            Music expresses that which cannot be said and on which it is impossible to be silent.
+                        </p>
+                    </div>
+                    <div  data-folder="nnncs" class="card">
+                        <div class="play">
+                            <svg width="28px" height="28px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Green Circle -->
+                                <circle cx="50" cy="50" r="50" fill="green" />
+
+                                <!-- Play Button (Triangle) -->
+                                <polygon points="35,25 35,75 75,50" fill="black" />
+                            </svg>
+                        </div>
+                        <img src="https://raw.githubusercontent.com/CodeWithHarry/Sigma-Web-Dev-Course/main/Video%2084%20-%20Project%202%20-%20Spotify%20Clone/songs/Bright_(mood)/cover.jpg"
+                            alt="">
+                        <h2>Just Relax!
+                        </h2>
+                        <p>
+                            Just Chill!
+                        </p>
+                    </div>
+                    <div  data-folder="nnnncs" class="card">
+                        <div class="play">
+                            <svg width="28px" height="28px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Green Circle -->
+                                <circle cx="50" cy="50" r="50" fill="green" />
+
+                                <!-- Play Button (Triangle) -->
+                                <polygon points="35,25 35,75 75,50" fill="black" />
+                            </svg>
+
+
+                        </div>
+                        <img src="https://raw.githubusercontent.com/CodeWithHarry/Sigma-Web-Dev-Course/main/Video%2084%20-%20Project%202%20-%20Spotify%20Clone/songs/Chill_(mood)/cover.jpg"
+                            alt="">
+                        <h2>Chill Mood On
+
+                        </h2>
+                        <p>
+                            Hits to boost your mood and fill you with happiness!
+                        </p>
+                    </div>
+                    
+                    <div  data-folder="nnnnncs" class="card">
+                        <div class="play">
+                            <svg width="28px" height="28px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Green Circle -->
+                                <circle cx="50" cy="50" r="50" fill="green" />
+
+                                <!-- Play Button (Triangle) -->
+                                <polygon points="35,25 35,75 75,50" fill="black" />
+                            </svg>
+
+
+                        </div>
+                        <img src="https://raw.githubusercontent.com/CodeWithHarry/Sigma-Web-Dev-Course/main/Video%2084%20-%20Project%202%20-%20Spotify%20Clone/songs/Funky_(mood)/cover.jpg"
+                            alt="">
+                        <h2>Funky!
+
+                        </h2>
+                        <p>
+                            Cool Dude!
+                        </p>
+                    </div>
+                    
+                    <div  data-folder="nnnnnncs" class="card">
+                        <div class="play">
+                            <svg width="28px" height="28px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Green Circle -->
+                                <circle cx="50" cy="50" r="50" fill="green" />
+
+                                <!-- Play Button (Triangle) -->
+                                <polygon points="35,25 35,75 75,50" fill="black" />
+                            </svg>
+
+
+                        </div>
+                        <img src="https://raw.githubusercontent.com/CodeWithHarry/Sigma-Web-Dev-Course/main/Video%2084%20-%20Project%202%20-%20Spotify%20Clone/songs/Love_(mood)/cover.jpg"
+                            alt="">
+                        <h2>Love!
+
+                        </h2>
+                        <p>
+                            Love is life!
+                        </p>
+                    </div>
+                    <div  data-folder="nnnnnnncs" class="card">
+                        <div class="play">
+                            <svg width="28px" height="28px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Green Circle -->
+                                <circle cx="50" cy="50" r="50" fill="green" />
+
+                                <!-- Play Button (Triangle) -->
+                                <polygon points="35,25 35,75 75,50" fill="black" />
+                            </svg>
+
+
+                        </div>
+                        <img src="data:image/jpeg;base64,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"
+                            alt="">
+                        <h2>Mashup!
+
+                        </h2>
+                        <p>
+                           Let's have some awesome music
+                        </p>
+                    </div>
+                    
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle ">
+
+                        </div>
+                    </div>
+                    <div class="abovebar">
+                        <div class="songinfo"></div>
+
+                        <div class="songbuttons">
+                            <img id="previous" src="prev.svg" alt="">
+                            <img id="play" src="play.svg" alt="">
+                            <img id="next" src="next.svg" alt="">
+
+
+                        </div>
+                        <div class="timevol">
+                            <div class="songtime"></div>
+                            <div class="volume"><img src="volume.svg" alt="">
+                                <div class="range">
+                                    <input type="range" width="25" name="volume">
+                                </div>
+                            
+                            
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
